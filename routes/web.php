@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
+Route::get('/edit', function() {
+    return view('editor');
+})->name('editor');
