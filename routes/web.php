@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('landing');
+    $cardNames = [
+        'kenrith,_the_returned_king',
+        'mountain',
+    ]; 
+    return view('landing', compact('cardNames'));
 });
 Route::get('/edit', function() {
     return view('editor');
