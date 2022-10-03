@@ -13,26 +13,7 @@
         @foreach ($cardNames as $card)
             <img id="{{ $card }}" width="250px" style="position: absolute;" src="/storage/images/{{ $card }}.jpg">
         @endforeach
-        <style>
-            .sidebar {
-                margin-top: 10%;
-                float: right;
-                background-color: rgb(39, 39, 39);
-                width:200px;
-                height: 500px;
-
-            }
-
-            .items {
-                width: 100%;
-                height: 100%;
-                color: white;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-around;
-            }
-        </style>
+        
     </body>
 </html>
 
