@@ -10,12 +10,6 @@
     </head>
     <body>
 
-        {{-- {{ $cardNames = [
-            'kenrith,_the_returned_king.jpg',
-            'mountain',
-            ]; 
-        }} --}}
-
         @foreach ($cardNames as $card)
             <img id="{{ $card }}" width="250px" style="position: absolute;" src="/storage/images/{{ $card }}.jpg">
         @endforeach
