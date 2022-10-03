@@ -54,11 +54,51 @@
             .banner-text:hover {
                 background-color: rgb(219, 219, 219);
             }
+
+            /* .container-body {
+                display: flex;
+                height: 100px;
+                width: 100px;
+                background-color:red;
+                align-items:center;
+                justify-content: center;
+            }
+
+            .container {
+                display: flex;
+                width: 90;
+                height: 85vh;
+            }
+
+            .sidebar {
+                background-color: white;
+                display: flex;
+                justify-content: end;
+            } */
+
+            .sidebar {
+                margin-top: 10%;
+                float: right;
+                background-color: rgb(39, 39, 39);
+                width:200px;
+                height: 500px;
+
+            }
+
+            .items {
+                width: 100%;
+                height: 100%;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+            }
         </style>
     </head>
     <body>
 
-        <form>
+        {{-- <form>
             @csrf
             <div class="banner">
                 <div class="banner-text">
@@ -66,9 +106,24 @@
                     <input type="submit" value="Create">
                 </div>
             </div>
-        </form>    
+        </form>     --}}
 
-        <img id="kenrith" src="https://cards.scryfall.io/large/front/5/6/56c1227e-bea7-47cb-bbec-389a3d585af5.jpg?1637568481" width="250px" style="position: absolute;">
+        <div class="sidebar">
+            
+            <div class="items">
+
+                <h1>Turn</h1>
+                    <p>1</p>
+                <h1>Life</h1>
+                    <p>40</p>
+                <h1>Mana</h1>
+                    <p>0 0 0 0 0</p>
+
+            </div>
+
+        </div>
+
+        {{-- <img id="kenrith" src="https://cards.scryfall.io/large/front/5/6/56c1227e-bea7-47cb-bbec-389a3d585af5.jpg?1637568481" width="250px" style="position: absolute;"> --}}
 
         <script>
 
