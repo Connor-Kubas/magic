@@ -1,1 +1,1 @@
-This project allows the user to design Magic: The Gathering cards.
+This project allows the user to test Magic: The Gathering decks.
