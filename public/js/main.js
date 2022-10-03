@@ -1,4 +1,8 @@
-dragElement(document.getElementById(['mountain']));
+names = ['mountain', 'kenrith,_the_returned_king'];
+
+for (let i = 0; i < names.length; i++) {
+
+dragElement(document.getElementById(names[i]));
 
     function dragElement(card) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -34,4 +38,6 @@ dragElement(document.getElementById(['mountain']));
             document.onmouseup = null;
             document.onmousemove = null;
         }
+}
+
 }
