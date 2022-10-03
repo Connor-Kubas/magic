@@ -55,27 +55,6 @@
                 background-color: rgb(219, 219, 219);
             }
 
-            /* .container-body {
-                display: flex;
-                height: 100px;
-                width: 100px;
-                background-color:red;
-                align-items:center;
-                justify-content: center;
-            }
-
-            .container {
-                display: flex;
-                width: 90;
-                height: 85vh;
-            }
-
-            .sidebar {
-                background-color: white;
-                display: flex;
-                justify-content: end;
-            } */
-
             .sidebar {
                 margin-top: 10%;
                 float: right;
@@ -98,7 +77,7 @@
     </head>
     <body>
 
-        {{-- <form>
+        <form>
             @csrf
             <div class="banner">
                 <div class="banner-text">
@@ -106,7 +85,7 @@
                     <input type="submit" value="Create">
                 </div>
             </div>
-        </form>     --}}
+        </form>    
 
         <div class="sidebar">
             
@@ -123,7 +102,7 @@
 
         </div>
 
-        {{-- <img id="kenrith" src="https://cards.scryfall.io/large/front/5/6/56c1227e-bea7-47cb-bbec-389a3d585af5.jpg?1637568481" width="250px" style="position: absolute;"> --}}
+        <img id="kenrith" src="https://cards.scryfall.io/large/front/5/6/56c1227e-bea7-47cb-bbec-389a3d585af5.jpg?1637568481" width="250px" style="position: absolute;">
 
         <script>
 
