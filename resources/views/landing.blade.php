@@ -11,7 +11,7 @@
     <body>
 
         @foreach ($cardNames as $card)
-            <img id="{{ $card }}" width="250px" style="position: absolute;" src="/storage/images/{{ $card }}.jpg">
+            <img class= "{{ $card }}" id="{{ $card }}" width="250px" style="position: absolute;" src="/storage/images/{{ $card }}.jpg">
         @endforeach
         
     </body>
